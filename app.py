@@ -3,7 +3,7 @@ from PIL import Image
 
 icon = Image.open("./images/home.jpg")
 st.set_page_config(page_title="Mother's Kitchen",page_icon= icon, layout='wide')
-st.image("./images/download.jpeg",use_column_width=True)
+st.image("./images/img.webp",use_column_width=True)
 st.snow()
 
 _, exp_col, _ = st.columns([1,3,1])
