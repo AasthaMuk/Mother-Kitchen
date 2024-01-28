@@ -21,6 +21,6 @@ with exp_col:
                     """)
        
 
-if __name__=="__main__":
-    app = App()
-    app.set_page_configuration()
+
+app = App()
+app.set_page_configuration()
