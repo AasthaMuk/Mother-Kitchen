@@ -1,12 +1,10 @@
 import streamlit as st
 
 
-class App:
-
-    def set_page_configuration(self):
-        st.set_page_config(page_title='Snowflake', layout='wide')
-        st.image("./images/ungifted_amateur_v5.png", use_column_width=True )
-        st.snow()
+def set_page_configuration(self):
+    st.set_page_config(page_title='Snowflake', layout='wide')
+    st.image("./images/ungifted_amateur_v5.png", use_column_width=True )
+    st.snow()
 
 _, exp_col, _ = st.columns([1,3,1])
 with exp_col:
@@ -22,5 +20,5 @@ with exp_col:
        
 
 
-app = App()
-app.set_page_configuration()
+
+set_page_configuration()
