@@ -1,6 +1,8 @@
 import streamlit as st
+from PIL import Image
 
-st.set_page_config(page_title='Snowflake', layout='wide')
+icon = Image.open("./images/kitchen.png")
+st.set_page_config(page_title="Mother's Kitchen",page_icon= icon, layout='wide')
 st.image("./images/ungifted_amateur_v5.png", use_column_width=True )
 st.snow()
 
@@ -12,9 +14,12 @@ with exp_col:
 
                     But here's my recommendation:
 
-                    There are different dishes to choose from which you can prepare at Home at your convenience🎈... sorry, I mean streamlined, I have removed options and arguments that are not frequently used in each command. 
+                    There are different dishes to choose from which you can prepare at Home at your convenience🎈.........
                     Spend a few minutes reading the tips and hopefully pick up something new.
                     """)
+        
+
+    
        
 
 
